@@ -27,7 +27,7 @@ public class AccountEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(name = "account_number", nullable = false)
+	@Column(name = "account_number", nullable = false, length = 20, unique = true)
 	private String accountNumber;
 
 	@ManyToOne

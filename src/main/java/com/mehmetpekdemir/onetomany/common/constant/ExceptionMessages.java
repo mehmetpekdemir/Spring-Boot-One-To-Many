@@ -15,4 +15,8 @@ public final class ExceptionMessages {
 		throw new IllegalArgumentException(UTILITY_CLASS);
 	}
 
+	public static final String ACCOUNT_NOT_FOUND = "Account Not Found !";
+	
+	public static final String EMPLOYEE_NOT_FOUND = "Employee Not Found !";
+
 }
