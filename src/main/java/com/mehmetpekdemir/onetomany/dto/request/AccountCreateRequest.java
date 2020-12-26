@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @ApiModel(value = "Account Create Request")
-public class AccountCreateRequest {
+public final class AccountCreateRequest {
 
 	@NotNull
 	@NotEmpty

@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @ApiModel(value = "Employee Response")
-public class EmployeeResponse {
+public final class EmployeeResponse {
 
 	@ApiModelProperty(value = "First Name")
 	private String firstName;

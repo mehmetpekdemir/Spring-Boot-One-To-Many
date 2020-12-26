@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @ApiModel(value = "Account Response")
-public class AccountResponse {
+public final class AccountResponse {
 
 	@ApiModelProperty(value = "Account Number")
 	private String accountNumber;
